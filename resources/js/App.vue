@@ -83,8 +83,8 @@ export default {
           if (auction.timeLeft > 0) {
             auction.timeLeft--;
           } else {
-            auction.timeLeft = 12; // Reset timer
-            this.updatePrice(auction); // Automatically update price
+            auction.timeLeft = 12; 
+            this.updatePrice(auction); 
           }
         });
       }, 1000);
